@@ -1,4 +1,4 @@
-# Homebrew cask template for RateLimitBar.
+# Homebrew cask for RateLimitBar.
 cask "ratelimitbar" do
   version "1.0.0"
   sha256 "f78d77eac1cf56a96ec3b2b64350664c6c234c9c6eda1fac9b98fc03b83765e2"
@@ -9,7 +9,7 @@ cask "ratelimitbar" do
   homepage "https://ratelimitbar.com"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "RateLimitBar.app"
 
