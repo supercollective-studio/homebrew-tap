@@ -1,7 +1,7 @@
 # Homebrew cask for RateLimitBar.
 cask "ratelimitbar" do
-  version "1.0.0"
-  sha256 "f78d77eac1cf56a96ec3b2b64350664c6c234c9c6eda1fac9b98fc03b83765e2"
+  version "1.0.1"
+  sha256 "1ddb1480bf0fc2f800ba1b9f18afe051e1a9a263b3c45d31771a63813bb753e9"
 
   url "https://downloads.ratelimitbar.com/RateLimitBar-#{version}.dmg"
   name "RateLimitBar"
