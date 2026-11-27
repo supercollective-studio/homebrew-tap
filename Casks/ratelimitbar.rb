@@ -1,8 +1,7 @@
 # Homebrew cask template for RateLimitBar.
-# Fill in the DMG's SHA-256 (`shasum -a 256 RateLimitBar-<version>.dmg`) after signing/notarizing.
 cask "ratelimitbar" do
   version "1.0.0"
-  sha256 "REPLACE_WITH_DMG_SHA256"
+  sha256 "f78d77eac1cf56a96ec3b2b64350664c6c234c9c6eda1fac9b98fc03b83765e2"
 
   url "https://downloads.ratelimitbar.com/RateLimitBar-#{version}.dmg"
   name "RateLimitBar"
